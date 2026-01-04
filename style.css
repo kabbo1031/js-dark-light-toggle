@@ -1,0 +1,23 @@
+body{
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  transition:0.3s;
+}
+
+body.dark{
+  background:#020617;
+  color:white;
+}
+
+body.light{
+  background:#f8fafc;
+  color:#020617;
+}
+
+.box{
+  padding:30px;
+  border-radius:12px;
+}
